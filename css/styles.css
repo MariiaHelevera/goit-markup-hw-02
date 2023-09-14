@@ -3,7 +3,7 @@ body {
     color: #2E2F42;
     background-color: #fff;
     font-size: 16px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -22,13 +22,14 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.accent {
-    color: #4D5AE5;
+.accent-header {
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -58,17 +59,13 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.071;
-    letter-spacing: 1.12px;
-    width: 496px;
+    line-height: 1.07;
+    letter-spacing: 0.07em;
 }
 
 .order-button {
     color: #fff;
-    border: none;
-    border-radius: 4px;
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -81,7 +78,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em;
 }
 
 .features-text {
@@ -98,14 +95,12 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.111;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.045em;
     text-transform: capitalize;
 }
 
 .team-card {
-    border-radius: 0px 0px 4px 4px;
     background-color: #fff;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
 }
 
@@ -113,7 +108,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em
 }
 
 .team-job {
@@ -125,20 +120,16 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.045em;
     text-transform: capitalize;
-}
-
-.project-card {
-    border: 1px solid #E7E9FC;
 }
 
 .project-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em;
 }
 
 .project-type {
@@ -153,13 +144,17 @@ ul {
 }
 
 .footer-logo {
-    color: #F4F4FD;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.accent-footer {
+    color: #F4F4FD;
 }
 
 .footer-text {
