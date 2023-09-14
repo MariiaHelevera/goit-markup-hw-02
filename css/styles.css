@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #fff;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -9,7 +9,6 @@ body {
 
 a {
     text-decoration: none;
-    font-style: normal;
     color: inherit;
 }
 
@@ -29,7 +28,7 @@ ul {
 }
 
 .accent-header {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -42,6 +41,7 @@ ul {
 
 .header-contact-link {
     color: #434455;
+    font-style: normal;
 }
 
 .header-contact-link:hover,
@@ -60,13 +60,16 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
 }
 
 .order-button {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .order-button:hover, .order-button:focus {
@@ -78,7 +81,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
 }
 
 .features-text {
@@ -94,8 +97,8 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
-    letter-spacing: 0.045em;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -108,7 +111,7 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em
+    letter-spacing: 0.02em;
 }
 
 .team-job {
@@ -121,7 +124,7 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.045em;
+    letter-spacing: 0.0em;
     text-transform: capitalize;
 }
 
@@ -154,7 +157,7 @@ ul {
 }
 
 .accent-footer {
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 
 .footer-text {
